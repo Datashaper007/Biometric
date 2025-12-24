@@ -24,7 +24,7 @@ import RfidReader from './pages/RfidReader';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Biometric">
       <div className="min-h-screen bg-white">
         <Navbar />
 
